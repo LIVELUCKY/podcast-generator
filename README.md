@@ -5,6 +5,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-microsoft%2FVibeVoice-black?logo=github)](https://github.com/microsoft/VibeVoice)
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-Collection-orange?logo=huggingface)](https://huggingface.co/collections/microsoft/vibevoice-68a2ef24a875c44be47b034f)
 [![Technical Report](https://img.shields.io/badge/Technical-Report-red?logo=adobeacrobatreader)](report/TechnicalReport.pdf)
+[![Live Playground](https://img.shields.io/badge/Live-Playground-green?logo=gradio)](https://86636c494bbddc69c7.gradio.live/)
 
 </div>
 
