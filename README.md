@@ -1,16 +1,8 @@
-# VibeVoice: Frontier Open-Source Text-to-Speech
+## 🎵 VibeVoice: A Frontier Open-Source Text-to-Speech
+[![Demo Page](https://img.shields.io/badge/Project-Page-blue?logo=google-chrome)](https://microsoft.github.io/VibeVoice)
+[![GitHub](https://img.shields.io/badge/GitHub-microsoft%2FVibeVoice-black?logo=github)](https://github.com/microsoft/VibeVoice)
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-Collection-orange?logo=huggingface)](https://huggingface.co/collections/microsoft/vibevoice-68a2ef24a875c44be47b034f)
 
-<p align="center">
-  <a href="https://microsoft.github.io/VibeVoice">
-    <img src="https://img.shields.io/badge/🌐_Project_Page-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Project Page">
-  </a>
-  <a href="https://huggingface.co/collections/microsoft/vibevoice-68a2ef24a875c44be47b034f">
-    <img src="https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face">
-  </a>
-  <a href="https://aka.ms/VibeVoiceDemo">
-    <img src="https://img.shields.io/badge/🎵_Demo-FF6B6B?style=for-the-badge&logo=gradio&logoColor=white" alt="Demo">
-  </a>
-</p>
 
 
 VibeVoice is a novel framework designed for generating **expressive**, **long-form**, **multi-speaker** conversational audio, such as podcasts, from text. It addresses significant challenges in traditional Text-to-Speech (TTS) systems, particularly in scalability, speaker consistency, and natural turn-taking.
@@ -19,7 +11,12 @@ A core innovation of VibeVoice is its use of continuous speech tokenizers (Acous
 
 The model can synthesize speech up to **90 minutes** long with up to **4 distinct speakers**, surpassing the typical 1-2 speaker limits of many prior models. 
 
-Try it out via [Demo](https://aka.ms/VibeVoiceDemo).
+Try it out via [Demo](https://microsoft.github.io/VibeVoice).
+
+<p align="center">
+  <img src="Figures/VibeVoice.jpg" alt="VibeVoice Overview" height="240px" style="margin-right: 10px;">
+  <img src="Figures/MOS-preference.png" alt="MOS Preference Results" height="240px">
+</p>
 
 ## Models
 | Model | Context Length | Generation Length |  Weight |
