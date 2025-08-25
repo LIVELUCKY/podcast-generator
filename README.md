@@ -7,8 +7,9 @@
 [![Live Playground](https://img.shields.io/badge/Live-Playground-green?logo=gradio)](https://aka.ms/VibeVoice-Demo)
 
 </div>
-
-
+<div align="center">
+<img src="Figures/log.png" alt="VibeVoice Logo" width="200">
+</div>
 
 VibeVoice is a novel framework designed for generating **expressive**, **long-form**, **multi-speaker** conversational audio, such as podcasts, from text. It addresses significant challenges in traditional Text-to-Speech (TTS) systems, particularly in scalability, speaker consistency, and natural turn-taking.
 

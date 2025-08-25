@@ -29,6 +29,7 @@ dependencies = [
     "gradio",
     "av",
     "aiortc",
+    "librosa"
 ]
 
 
