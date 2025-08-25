@@ -1,4 +1,4 @@
-# VibeVoice: A Frontier Open-Source Text-to-Speech Model
+# VibeVoice: Frontier Open-Source Text-to-Speech
 
 <p align="center">
   <a href="https://microsoft.github.io/VibeVoice">
