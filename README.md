@@ -1,6 +1,6 @@
 <div align="center">
 
-## 🎤 VibeVoice: A Frontier Long Conversational Text-to-Speech Model
+## 🎙️ VibeVoice: A Frontier Long Conversational Text-to-Speech Model
 [![Demo Page](https://img.shields.io/badge/Demo-Page-blue?logo=microsoft)](https://microsoft.github.io/VibeVoice)
 [![GitHub](https://img.shields.io/badge/GitHub-microsoft%2FVibeVoice-black?logo=github)](https://github.com/microsoft/VibeVoice)
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-Collection-orange?logo=huggingface)](https://huggingface.co/collections/microsoft/vibevoice-68a2ef24a875c44be47b034f)
