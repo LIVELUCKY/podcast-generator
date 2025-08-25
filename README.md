@@ -13,9 +13,9 @@ The model can synthesize speech up to **90 minutes** long with up to **4 distinc
 
 Try it out via [Demo](https://microsoft.github.io/VibeVoice).
 
-<p align="center">
-  <img src="Figures/VibeVoice.jpg" alt="VibeVoice Overview" height="240px" style="margin-right: 10px;">
-  <img src="Figures/MOS-preference.png" alt="MOS Preference Results" height="240px">
+<p align="left">
+  <img src="Figures/MOS-preference.png" alt="MOS Preference Results" height="260px">
+  <img src="Figures/VibeVoice.jpg" alt="VibeVoice Overview" height="250px" style="margin-right: 10px;">
 </p>
 
 ## Models
