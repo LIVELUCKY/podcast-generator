@@ -37,7 +37,9 @@ https://github.com/user-attachments/assets/6f27a8a5-0c60-4f57-87f3-7dea2e11c730
 
 https://github.com/user-attachments/assets/a357c4b6-9768-495c-a576-1618f6275727
 
-For more examples, try it out via [Demo](https://aka.ms/VibeVoice-Demo).
+For more examples, see the [Project Page](https://microsoft.github.io/VibeVoice).
+
+Try your own samples at [Demo](https://aka.ms/VibeVoice-Demo).
 
 ## Models
 | Model | Context Length | Generation Length |  Weight |
