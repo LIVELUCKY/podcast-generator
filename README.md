@@ -1,5 +1,5 @@
 ## 🎵 VibeVoice: A Frontier Open-Source Text-to-Speech
-[![Demo Page](https://img.shields.io/badge/Project-Page-blue?logo=google-chrome)](https://microsoft.github.io/VibeVoice)
+[![Demo Page](https://img.shields.io/badge/Demo-Page-blue?logo=google-chrome)](https://microsoft.github.io/VibeVoice)
 [![GitHub](https://img.shields.io/badge/GitHub-microsoft%2FVibeVoice-black?logo=github)](https://github.com/microsoft/VibeVoice)
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-Collection-orange?logo=huggingface)](https://huggingface.co/collections/microsoft/vibevoice-68a2ef24a875c44be47b034f)
 
