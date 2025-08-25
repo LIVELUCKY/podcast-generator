@@ -17,6 +17,13 @@ A core innovation of VibeVoice is its use of continuous speech tokenizers (Acous
 
 The model can synthesize speech up to **90 minutes** long with up to **4 distinct speakers**, surpassing the typical 1-2 speaker limits of many prior models. 
 
+
+<p align="left">
+  <img src="Figures/MOS-preference.png" alt="MOS Preference Results" height="260px">
+  <img src="Figures/VibeVoice.jpg" alt="VibeVoice Overview" height="250px" style="margin-right: 10px;">
+</p>
+
+
 ### 🎵 Demo Examples
 
 **Cross-Lingual**
@@ -28,11 +35,6 @@ https://github.com/user-attachments/assets/838d8ad9-a201-4dde-bb45-8cd3f59ce722
 https://github.com/user-attachments/assets/6f27a8a5-0c60-4f57-87f3-7dea2e11c730
 
 For more examples, try it out via [Demo](https://aka.ms/VibeVoice-Demo).
-
-<p align="left">
-  <img src="Figures/MOS-preference.png" alt="MOS Preference Results" height="260px">
-  <img src="Figures/VibeVoice.jpg" alt="VibeVoice Overview" height="250px" style="margin-right: 10px;">
-</p>
 
 ## Models
 | Model | Context Length | Generation Length |  Weight |
