@@ -16,7 +16,7 @@ A core innovation of VibeVoice is its use of continuous speech tokenizers (Acous
 
 The model can synthesize speech up to **90 minutes** long with up to **4 distinct speakers**, surpassing the typical 1-2 speaker limits of many prior models. 
 
-Try it out via [Demo](https://microsoft.github.io/VibeVoice).
+Try it out via [Demo](https://aka.ms/VibeVoice-Demo).
 
 <p align="left">
   <img src="Figures/MOS-preference.png" alt="MOS Preference Results" height="260px">
