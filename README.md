@@ -35,12 +35,15 @@ https://github.com/user-attachments/assets/838d8ad9-a201-4dde-bb45-8cd3f59ce722
 
 **Spontaneous Singing**
 <div align="center">
+
 https://github.com/user-attachments/assets/6f27a8a5-0c60-4f57-87f3-7dea2e11c730
+
 </div>
 
 
 **Long Converation with 4 people**
 <div align="center">
+
 https://github.com/user-attachments/assets/a357c4b6-9768-495c-a576-1618f6275727
 
 </div>
