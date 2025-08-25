@@ -17,15 +17,17 @@ A core innovation of VibeVoice is its use of continuous speech tokenizers (Acous
 
 The model can synthesize speech up to **90 minutes** long with up to **4 distinct speakers**, surpassing the typical 1-2 speaker limits of many prior models. 
 
-### 🎵 Demo Example
-Listen to a sample of VibeVoice generating multi-speaker conversational audio:
+### 🎵 Demo Examples
 
-<audio controls>
-  <source src="demo/example/2p_see_u_again.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+**Cross-Lingual**
 
-Try it out via [Demo](https://aka.ms/VibeVoice-Demo).
+https://github.com/user-attachments/assets/838d8ad9-a201-4dde-bb45-8cd3f59ce722
+
+**Spontaneous Singing**
+
+https://github.com/user-attachments/assets/6f27a8a5-0c60-4f57-87f3-7dea2e11c730
+
+For more examples, try it out via [Demo](https://aka.ms/VibeVoice-Demo).
 
 <p align="left">
   <img src="Figures/MOS-preference.png" alt="MOS Preference Results" height="260px">
