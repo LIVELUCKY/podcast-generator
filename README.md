@@ -6,8 +6,8 @@
 [![Technical Report](https://img.shields.io/badge/Technical-Report-red?logo=adobeacrobatreader)](report/TechnicalReport.pdf)
 [![Live Playground](https://img.shields.io/badge/Live-Playground-green?logo=gradio)](https://aka.ms/VibeVoice-Demo)
 
-<!-- </div>
-<div align="center">
+</div>
+<!-- <div align="center">
 <img src="Figures/log.png" alt="VibeVoice Logo" width="200">
 </div> -->
 
@@ -25,7 +25,7 @@ The model can synthesize speech up to **90 minutes** long with up to **4 distinc
 
 
 ### 🎵 Demo Examples
-
+<div align="center">
 **Cross-Lingual**
 
 https://github.com/user-attachments/assets/838d8ad9-a201-4dde-bb45-8cd3f59ce722
@@ -38,9 +38,12 @@ https://github.com/user-attachments/assets/6f27a8a5-0c60-4f57-87f3-7dea2e11c730
 
 https://github.com/user-attachments/assets/a357c4b6-9768-495c-a576-1618f6275727
 
+
+</div>
 For more examples, see the [Project Page](https://microsoft.github.io/VibeVoice).
 
 Try your own samples at [Demo](https://aka.ms/VibeVoice-Demo).
+
 
 ## Models
 | Model | Context Length | Generation Length |  Weight |
