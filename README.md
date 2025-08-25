@@ -1,19 +1,32 @@
 # VibeVoice: A Frontier Open-Source Text-to-Speech Model
 
+<p align="center">
+  <a href="https://microsoft.github.io/VibeVoice">
+    <img src="https://img.shields.io/badge/🌐_Project_Page-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Project Page">
+  </a>
+  <a href="https://huggingface.co/collections/microsoft/vibevoice-68a2ef24a875c44be47b034f">
+    <img src="https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face">
+  </a>
+  <a href="https://aka.ms/VibeVoiceDemo">
+    <img src="https://img.shields.io/badge/🎵_Demo-FF6B6B?style=for-the-badge&logo=gradio&logoColor=white" alt="Demo">
+  </a>
+</p>
+
+
 VibeVoice is a novel framework designed for generating **expressive**, **long-form**, **multi-speaker** conversational audio, such as podcasts, from text. It addresses significant challenges in traditional Text-to-Speech (TTS) systems, particularly in scalability, speaker consistency, and natural turn-taking.
 
 A core innovation of VibeVoice is its use of continuous speech tokenizers (Acoustic and Semantic) operating at an ultra-low frame rate of 7.5 Hz. These tokenizers efficiently preserve audio fidelity while significantly boosting computational efficiency for processing long sequences. VibeVoice employs a [next-token diffusion](https://arxiv.org/abs/2412.08635) framework, leveraging a Large Language Model (LLM) to understand textual context and dialogue flow, and a diffusion head to generate high-fidelity acoustic details.
 
 The model can synthesize speech up to **90 minutes** long with up to **4 distinct speakers**, surpassing the typical 1-2 speaker limits of many prior models. 
 
-You can try it in our host [Gradio demo](https://aka.ms/VibeVoiceDemo).
+Try it out via [Demo](https://aka.ms/VibeVoiceDemo).
 
 ## Models
-| Model | Base Model | Context Length | Generation Length |  Weight |
-|-------|------------|----------------|----------|----------|
-| VibeVoice-Stream-0.5B | Qwen2.5-0.5B | - | - | On the way |
-| VibeVoice-1.5B | Qwen2.5-1.5B | 64K | ~90 min | [HF link](https://huggingface.co/microsoft/VibeVoice-1.5B) |
-| VibeVoice-7B | Qwen2.5-7B | 32K | ~45 min | On the way |
+| Model | Context Length | Generation Length |  Weight |
+|-------|----------------|----------|----------|
+| VibeVoice-0.5B-Streaming | - | - | On the way |
+| VibeVoice-1.5B | 64K | ~90 min | [HF link](https://huggingface.co/microsoft/VibeVoice-1.5B) |
+| VibeVoice-7B| 32K | ~45 min | On the way |
 
 ## Installation
 We recommend to use NVIDIA Deep Learning Container to manage the CUDA environment. 
