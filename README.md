@@ -46,7 +46,7 @@ Try your own samples at [Demo](https://aka.ms/VibeVoice-Demo).
 |-------|----------------|----------|----------|
 | VibeVoice-0.5B-Streaming | - | - | On the way |
 | VibeVoice-1.5B | 64K | ~90 min | [HF link](https://huggingface.co/microsoft/VibeVoice-1.5B) |
-| VibeVoice-7B| 32K | ~45 min | [HF link](https://huggingface.co/WestZhang/VibeVoice-Large-pt/tree/main) |
+| VibeVoice-7B| 32K | ~45 min | [HF link](https://huggingface.co/WestZhang/VibeVoice-Large-pt) |
 
 ## Installation
 We recommend to use NVIDIA Deep Learning Container to manage the CUDA environment. 
