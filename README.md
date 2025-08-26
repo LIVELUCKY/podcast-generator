@@ -41,7 +41,7 @@ https://github.com/user-attachments/assets/6f27a8a5-0c60-4f57-87f3-7dea2e11c730
 </div>
 
 
-**Long Converation with 4 people**
+**Long Conversation with 4 people**
 <div align="center">
 
 https://github.com/user-attachments/assets/a357c4b6-9768-495c-a576-1618f6275727
@@ -104,7 +104,7 @@ python demo/inference_from_file.py --model_path microsoft/VibeVoice-1.5B --txt_p
 
 Potential for Deepfakes and Disinformation: High-quality synthetic speech can be misused to create convincing fake audio content for impersonation, fraud, or spreading disinformation. Users must ensure transcripts are reliable, check content accuracy, and avoid using generated content in misleading ways. Users are expected to use the generated content and to deploy the models in a lawful manner, in full compliance with all applicable laws and regulations in the relevant jurisdictions. It is best practice to disclose the use of AI when sharing AI-generated content.
 
-English and Chinese only: Transcripts in language other than English or Chinese may result in unexpected audio outputs.
+English and Chinese only: Transcripts in languages other than English or Chinese may result in unexpected audio outputs.
 
 Non-Speech Audio: The model focuses solely on speech synthesis and does not handle background noise, music, or other sound effects.
 
