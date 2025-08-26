@@ -97,7 +97,7 @@ python demo/gradio_demo.py --model_path microsoft/VibeVoice-1.5B --share
 python demo/inference_from_file.py --model_path microsoft/VibeVoice-1.5B --txt_path demo/text_examples/1p_abs.txt --speaker_names Alice
 
 # or more speakers
-python demo/inference_from_file.py --model_path microsoft/VibeVoice-1.5B --txt_path demo/text_examples/2p_zh.txt --speaker_names Alice Yunfan
+python demo/inference_from_file.py --model_path microsoft/VibeVoice-1.5B --txt_path demo/text_examples/2p_music.txt --speaker_names Alice Yunfan
 ```
 
 ## Risks and limitations
