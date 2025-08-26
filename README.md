@@ -101,8 +101,6 @@ python demo/inference_from_file.py --model_path microsoft/VibeVoice-1.5B --txt_p
 ```
 
 ## FAQ
-Here is the translated and polished version of your FAQ:
-
 #### Q1: Is this a pretrained model?
 **A:** Yes, it's a pretrained model without any post-training or benchmark-specific optimizations. In a way, this makes VibeVoice very versatile and fun to use.
 
