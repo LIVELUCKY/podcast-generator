@@ -100,6 +100,31 @@ python demo/inference_from_file.py --model_path microsoft/VibeVoice-1.5B --txt_p
 python demo/inference_from_file.py --model_path microsoft/VibeVoice-1.5B --txt_path demo/text_examples/2p_music.txt --speaker_names Alice Yunfan
 ```
 
+## FAQ
+Here is the translated and polished version of your FAQ:
+
+#### Q1: Is this a pretrained model?
+**A:** Yes, it's a pretrained model without any post-training or benchmark-specific optimizations. In a way, this makes VibeVoice very versatile and fun to use.
+
+#### Q2: Randomly trigger Sounds / Music / BGM.
+**A:** As you can see from our demo page, the background music or sounds are spontaneous. This means we can't directly control whether they are generated or not. The model is content-aware, and these sounds are triggered based on the input text and the chosen voice prompt.
+
+Here are a few things we've noticed:
+*   If the voice prompt you use contains background music, the generated speech is more likely to have it as well. (The 7B model is quite stable and effective at this—give it a try on the demo!)
+*   If the voice prompt is clean (no BGM), but the input text includes introductory words or phrases like "Welcome to," "Hello," or "However," background music might still appear.
+*   In other scenarios, the 7B model is more stable and has a lower probability of generating unexpected background music.
+
+In fact, we intentionally decided not to denoise our training data because we think it's an interesting feature for BGM to show up at just the right moment. You can think of it as a little easter egg we left for you.
+
+#### Q3: Text normalization?
+**A:** We don't perform any text normalization during training or inference. Our philosophy is that a large language model should be able to handle complex user inputs on its own. However, due to the nature of the training data, you might still run into some corner cases.
+
+#### Q4: Singing Capability.
+**A:** Our training data **doesn't contain any music data**. The ability to sing is an emergent capability of the model (which is why it might sound off-key, even on a famous song like 'See You Again'). (The 7B model is more likely to exhibit this than the 1.5B).
+
+#### Q5: Some Chinese pronunciation errors.
+**A:** The volume of Chinese data in our training set is significantly smaller than the English data. Additionally, certain special characters in Chinese may lead to pronunciation problems.
+
 ## Risks and limitations
 
 Potential for Deepfakes and Disinformation: High-quality synthetic speech can be misused to create convincing fake audio content for impersonation, fraud, or spreading disinformation. Users must ensure transcripts are reliable, check content accuracy, and avoid using generated content in misleading ways. Users are expected to use the generated content and to deploy the models in a lawful manner, in full compliance with all applicable laws and regulations in the relevant jurisdictions. It is best practice to disclose the use of AI when sharing AI-generated content.
