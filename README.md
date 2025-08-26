@@ -110,6 +110,7 @@ python demo/inference_from_file.py --model_path microsoft/VibeVoice-1.5B --txt_p
 Here are a few things we've noticed:
 *   If the voice prompt you use contains background music, the generated speech is more likely to have it as well. (The 7B model is quite stable and effective at this—give it a try on the demo!)
 *   If the voice prompt is clean (no BGM), but the input text includes introductory words or phrases like "Welcome to," "Hello," or "However," background music might still appear.
+*   Spekaer voice related, using "Alice" results in random BGM than others.
 *   In other scenarios, the 7B model is more stable and has a lower probability of generating unexpected background music.
 
 In fact, we intentionally decided not to denoise our training data because we think it's an interesting feature for BGM to show up at just the right moment. You can think of it as a little easter egg we left for you.
