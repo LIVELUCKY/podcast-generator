@@ -87,7 +87,12 @@ pip install -e .
 ### Usage 1: Launch Gradio demo
 ```bash
 apt update && apt install ffmpeg -y # for demo
+
+# For 1.5B model
 python demo/gradio_demo.py --model_path microsoft/VibeVoice-1.5B --share
+
+# For 7B model
+python demo/gradio_demo.py --model_path WestZhang/VibeVoice-Large-pt --share
 ```
 
 ### Usage 2: Inference from files directly
