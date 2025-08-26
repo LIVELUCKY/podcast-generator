@@ -99,10 +99,10 @@ python demo/gradio_demo.py --model_path WestZhang/VibeVoice-Large-pt --share
 ```bash
 # We provide some LLM generated example scripts under demo/text_examples/ for demo
 # 1 speaker
-python demo/inference_from_file.py --model_path microsoft/VibeVoice-1.5B --txt_path demo/text_examples/1p_abs.txt --speaker_names Alice
+python demo/inference_from_file.py --model_path WestZhang/VibeVoice-Large-pt --txt_path demo/text_examples/1p_abs.txt --speaker_names Alice
 
 # or more speakers
-python demo/inference_from_file.py --model_path microsoft/VibeVoice-1.5B --txt_path demo/text_examples/2p_music.txt --speaker_names Alice Yunfan
+python demo/inference_from_file.py --model_path WestZhang/VibeVoice-Large-pt --txt_path demo/text_examples/2p_music.txt --speaker_names Alice Yunfan
 ```
 
 ## FAQ
