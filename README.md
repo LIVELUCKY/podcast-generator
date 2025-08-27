@@ -34,6 +34,17 @@ The model can synthesize speech up to **90 minutes** long with up to **4 distinc
 
 ### 🎵 Demo Examples
 
+
+**Video Demo**
+
+We produced this video with [Wan2.2](https://github.com/Wan-Video/Wan2.2). We sincerely appreciate the Wan-Video team for their great work.
+
+<div align="center">
+
+https://github.com/user-attachments/assets/f009bbfd-23b9-41f2-9c7c-14484d2b8395
+
+</div>
+
 **Cross-Lingual**
 <div align="center">
 
