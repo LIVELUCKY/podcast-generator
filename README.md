@@ -103,6 +103,12 @@ pip install -e .
 
 ## Usages
 
+### 🚨 Tips
+We observed users may encounter occasional instability when synthesizing Chinese speech. We recommend:
+
+- Using English punctuation even for Chinese text, preferably only commas and periods.
+- Using the 7B model variant, which is considerably more stable.
+
 ### Usage 1: Launch Gradio demo
 ```bash
 apt update && apt install ffmpeg -y # for demo
