@@ -23,6 +23,14 @@ The model can synthesize speech up to **90 minutes** long with up to **4 distinc
   <img src="Figures/VibeVoice.jpg" alt="VibeVoice Overview" height="250px" style="margin-right: 10px;">
 </p>
 
+### 🔥 News
+
+- **[2025-08-26] 🎉 We Opensource the VibeVoice-7B-Preview model weights!**
+
+### 📋 TODO
+
+- [ ] Merge models into official Hugging Face repository
+- [ ] Release example training code and documentation
 
 ### 🎵 Demo Examples
 
@@ -58,7 +66,7 @@ Try your own samples at [Demo](https://aka.ms/VibeVoice-Demo).
 |-------|----------------|----------|----------|
 | VibeVoice-0.5B-Streaming | - | - | On the way |
 | VibeVoice-1.5B | 64K | ~90 min | [HF link](https://huggingface.co/microsoft/VibeVoice-1.5B) |
-| VibeVoice-7B| 32K | ~45 min | [HF link](https://huggingface.co/WestZhang/VibeVoice-Large-pt) |
+| VibeVoice-7B-Preview| 32K | ~45 min | [HF link](https://huggingface.co/microsoft/VibeVoice-7B-Preview) |
 
 ## Installation
 We recommend to use NVIDIA Deep Learning Container to manage the CUDA environment. 
