@@ -135,7 +135,7 @@ In fact, we intentionally decided not to denoise our training data because we th
 **A:** Our training data **doesn't contain any music data**. The ability to sing is an emergent capability of the model (which is why it might sound off-key, even on a famous song like 'See You Again'). (The 7B model is more likely to exhibit this than the 1.5B).
 
 #### Q5: Some Chinese pronunciation errors.
-**A:** The volume of Chinese data in our training set is significantly smaller than the English data. Additionally, certain special characters in Chinese may lead to pronunciation problems.
+**A:** The volume of Chinese data in our training set is significantly smaller than the English data. Additionally, certain special characters (e.g., Chinese quotation marks) may occasionally cause pronunciation issues.
 
 ## Risks and limitations
 
