@@ -30,7 +30,7 @@ The model can synthesize speech up to **90 minutes** long with up to **4 distinc
 
 ### 🔥 News
 
-- **[2025-08-26] 🎉 We Opensource the [VibeVoice-7B-Preview](https://huggingface.co/WestZhang/VibeVoice-Large-pt) model weights!**
+- **[2025-08-26] 🎉 We Open Source the [VibeVoice-7B-Preview](https://huggingface.co/WestZhang/VibeVoice-Large-pt) model weights!**
 
 ### 📋 TODO
 
@@ -155,7 +155,7 @@ python demo/inference_from_file.py --model_path WestZhang/VibeVoice-Large-pt --t
 Here are a few things we've noticed:
 *   If the voice prompt you use contains background music, the generated speech is more likely to have it as well. (The 7B model is quite stable and effective at this—give it a try on the demo!)
 *   If the voice prompt is clean (no BGM), but the input text includes introductory words or phrases like "Welcome to," "Hello," or "However," background music might still appear.
-*   Spekaer voice related, using "Alice" results in random BGM than others.
+*   Speaker voice related, using "Alice" results in random BGM than others.
 *   In other scenarios, the 7B model is more stable and has a lower probability of generating unexpected background music.
 
 In fact, we intentionally decided not to denoise our training data because we think it's an interesting feature for BGM to show up at just the right moment. You can think of it as a little easter egg we left for you.
@@ -170,7 +170,7 @@ In fact, we intentionally decided not to denoise our training data because we th
 **A:** The volume of Chinese data in our training set is significantly smaller than the English data. Additionally, certain special characters (e.g., Chinese quotation marks) may occasionally cause pronunciation issues.
 
 #### Q6: Instability of cross-lingual transfer.
-**A:** The model does exhibit strong cross-lingual transfer capabilities, including the preservation of accents, but its performance can be instable. This is an emergent ability of the model that we have not specifically optimized. It's possible that a satisfactory result can be achieved through repeated sampling.
+**A:** The model does exhibit strong cross-lingual transfer capabilities, including the preservation of accents, but its performance can be unstable. This is an emergent ability of the model that we have not specifically optimized. It's possible that a satisfactory result can be achieved through repeated sampling.
 
 ## Risks and limitations
 
