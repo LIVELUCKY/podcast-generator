@@ -169,6 +169,9 @@ In fact, we intentionally decided not to denoise our training data because we th
 #### Q5: Some Chinese pronunciation errors.
 **A:** The volume of Chinese data in our training set is significantly smaller than the English data. Additionally, certain special characters (e.g., Chinese quotation marks) may occasionally cause pronunciation issues.
 
+#### Q6: Instability of cross-lingual transfer.
+**A:** The model does exhibit strong cross-lingual transfer capabilities, including the preservation of accents, but its performance can be instable. This is an emergent ability of the model that we have not specifically optimized. It's possible that a satisfactory result can be achieved through repeated sampling.
+
 ## Risks and limitations
 
 Potential for Deepfakes and Disinformation: High-quality synthetic speech can be misused to create convincing fake audio content for impersonation, fraud, or spreading disinformation. Users must ensure transcripts are reliable, check content accuracy, and avoid using generated content in misleading ways. Users are expected to use the generated content and to deploy the models in a lawful manner, in full compliance with all applicable laws and regulations in the relevant jurisdictions. It is best practice to disclose the use of AI when sharing AI-generated content.
