@@ -83,7 +83,7 @@ https://github.com/user-attachments/assets/a357c4b6-9768-495c-a576-1618f6275727
 
 For more examples, see the [Project Page](https://microsoft.github.io/VibeVoice).
 
-Try your own samples at [Colab](https://colab.research.google.com/github/microsoft/VibeVoice/blob/main/demo/VibeVoice_colab.ipynb) or [Demo](https://aka.ms/VibeVoice-Demo).
+Try it on [Colab](https://colab.research.google.com/github/microsoft/VibeVoice/blob/main/demo/VibeVoice_colab.ipynb) or [Demo](https://aka.ms/VibeVoice-Demo).
 
 
 
