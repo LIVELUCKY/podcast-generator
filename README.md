@@ -38,7 +38,7 @@ The model can synthesize speech up to **90 minutes** long with up to **4 distinc
 
 - [ ] Merge models into official Hugging Face repository
 - [ ] Release example training code and documentation
-- [ ] Automatic Podcast Tool: An end-to-end solution that creates production-level podcasts from documents, webpages, or even a simple topic.
+- [ ] VibePod:  End-to-end solution that creates podcasts from documents, webpages, or even a simple topic.
 
 ### 🎵 Demo Examples
 
