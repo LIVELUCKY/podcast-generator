@@ -31,6 +31,7 @@ The model can synthesize speech up to **90 minutes** long with up to **4 distinc
 ### 🔥 News
 
 - **[2025-08-26] 🎉 We Open Source the [VibeVoice-7B-Preview](https://huggingface.co/WestZhang/VibeVoice-Large-pt) model weights!**
+- **[2025-08-28] 🎉 We add the [Colab](https://colab.research.google.com/github/microsoft/VibeVoice/blob/main/demo/VibeVoice_colab.ipynb) script for easily use the model.**
 
 ### 📋 TODO
 
@@ -123,6 +124,9 @@ We observed users may encounter occasional instability when synthesizing Chinese
 
 - Using English punctuation even for Chinese text, preferably only commas and periods.
 - Using the 7B model variant, which is considerably more stable.
+- If you found the generated voice speak too fast. Please try to chunk your text with multiple speaker turns with same speaker label.
+
+We'd like to thank [PsiPi](https://huggingface.co/PsiPi) for sharing an interesting way for emotion control. Detials can be found via [discussion12](https://huggingface.co/microsoft/VibeVoice-1.5B/discussions/12).
 
 ### Usage 1: Launch Gradio demo
 ```bash
