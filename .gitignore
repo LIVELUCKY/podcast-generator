@@ -175,3 +175,10 @@ tags
 /checkpoints/
 exp
 .gradio/
+/models/
+/temp_audio_py/
+/output/
+.DS_Store
+
+/images
+/media

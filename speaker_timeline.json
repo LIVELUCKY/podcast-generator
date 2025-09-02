@@ -1,0 +1,42 @@
+[
+  {
+    "start": 0.0,
+    "end": 1.86,
+    "speaker": "David"
+  },
+  {
+    "start": 1.86,
+    "end": 22.95,
+    "speaker": "David"
+  },
+  {
+    "start": 22.95,
+    "end": 57.52,
+    "speaker": "Anthony"
+  },
+  {
+    "start": 57.52,
+    "end": 89.98,
+    "speaker": "James"
+  },
+  {
+    "start": 89.98,
+    "end": 121.39,
+    "speaker": "David"
+  },
+  {
+    "start": 121.39,
+    "end": 142.65,
+    "speaker": "Anthony"
+  },
+  {
+    "start": 142.65,
+    "end": 161.8,
+    "speaker": "James"
+  },
+  {
+    "start": 161.8,
+    "end": 181.12,
+    "speaker": "David"
+  }
+]
